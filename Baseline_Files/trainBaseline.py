@@ -44,7 +44,7 @@ MAXWIDTH = 2260
 MAXHEIGHT = 337
 
 train_dataset = AuthorsDataset(
-    root_dir='Dataset',
+    root_dir='../',
     path=args.data_path,
     transform=transforms.Compose([
         Pad((MAXWIDTH, MAXHEIGHT)),
