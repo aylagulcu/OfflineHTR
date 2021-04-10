@@ -1,4 +1,4 @@
-#Baseline Siamese Network
+# Baseline Siamese Network
 ## Architecture
 This identical network of the Siamese CNN consists of:
 
