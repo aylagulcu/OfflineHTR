@@ -34,11 +34,11 @@ print("Avarage Height : ", sum(image_heights) / len(image_heights),
 
 fig = plt.figure()
 ax = fig.add_subplot(1, 2, 1)
-imgplot =plt.imshow(mpimg.imread(file_names[maxw_index]))
+imgplot =plt.imshow(mpimg.imread(file_names[maxw_index]), cmap="gray")
 ax.set_title('Max Width')
 
 ax = fig.add_subplot(1, 2, 2)
-imgplot = plt.imshow(mpimg.imread(file_names[maxh_index]))
+imgplot = plt.imshow(mpimg.imread(file_names[maxh_index]),cmap="gray")
 imgplot.set_clim(0.0, 0.7)
 ax.set_title('Max Height')
 
