@@ -4,6 +4,15 @@
 ```
 OfflineHTR
 │   README.md 
+└───Additional_Codes
+│   └───CVL
+│   │	│	ImageSizeDecider.py
+│   │	│	ImageSizeDecider_Result.PNG
+│   │	│	ImageSizeDecider_ResultPlot.png
+│   └───IAM
+│   │	│	ImageSizeDecider.py
+│   │	│	ImageSizeDecider_Result.PNG
+│   │	│	ImageSizeDecider_ResultPlot.png
 └───Baseline_Files
 │   └───Model_Baseline_Checkpoints
 │   └───Images
